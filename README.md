@@ -1,4 +1,4 @@
-# TB to FHIR VCF/Deeplex Pipeline
+# TB to FHIR Genomics VCF/Deeplex Excel Pipeline
 
 A Nextflow pipeline for converting Mycobacterium tuberculosis VCF and Deeplex Excel genomic data to FHIR Genomics format with drug resistance classification and lineage analysis.
 
@@ -6,7 +6,7 @@ A Nextflow pipeline for converting Mycobacterium tuberculosis VCF and Deeplex Ex
 
 This pipeline processes TB genomic data from two sources:
 - **VCF files**: Variant call format files from sequencing platforms
-- **Deeplex Excel files**: Post-analysis TB mutation data from Deeplex platform
+- **Deeplex Excel files**: Post-analysis TB mutation data from the Deeplex platform
 
 ### Key Features
 
@@ -15,8 +15,6 @@ This pipeline processes TB genomic data from two sources:
 - Drug resistance prediction and classification
 - FHIR Bundle generation
 - FHIR validation
-
----
 
 ## Requirements
 
@@ -33,8 +31,8 @@ This pipeline processes TB genomic data from two sources:
 ## Installation
 
 ```bash
-git clone https://github.com/oucru-id/tb-to-fhir-vcfdeeplex.git
-cd tb-to-fhir-vcfdeeplex
+git clone https://github.com/oucru-id/tb-to-fhir-mini.git
+cd tb-to-fhir-mini
 ```
 
 ## Directory Structure
