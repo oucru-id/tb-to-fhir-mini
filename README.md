@@ -30,9 +30,14 @@ This pipeline processes TB genomic data from two sources:
 
 ## Installation
 
+From the repo
 ```bash
 git clone https://github.com/oucru-id/tb-to-fhir-mini.git
 cd tb-to-fhir-mini
+```
+Docker installation
+```bash
+docker pull ghcr.io/javiadividya/tb-to-fhir-mini:1.0
 ```
 
 ## Directory Structure
