@@ -3,7 +3,6 @@
 nextflow.enable.dsl = 2
 
 process VCF_NORMALIZE {
-    publishDir "${params.results_dir}/${sample_id}/vcf", mode: 'copy'
 
     input:
     tuple val(sample_id), path(vcf_file)
@@ -46,7 +45,6 @@ process VCF_NORMALIZE {
 }
 
 process filter_variants {
-    publishDir "${params.results_dir}/${sample_id}/vcf", mode: 'copy'
 
     input:
     tuple val(sample_id), path(vcf_file)
@@ -103,7 +101,6 @@ process filter_variants {
 }
 
 process annotate {
-    publishDir "${params.results_dir}/${sample_id}/annotation", mode: 'copy'
 
     input:
     tuple val(sample_id), path(vcf_file)
