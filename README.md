@@ -169,4 +169,4 @@ results/
 ```
 
 ## Support
-[GitHub Issues](https://github.com/oucru-id/tb-to-fhir-vcfdeeplex/issues)
+[GitHub Issues](https://github.com/oucru-id/tb-to-fhir-mini/issues)
